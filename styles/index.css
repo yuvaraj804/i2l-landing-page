@@ -207,7 +207,7 @@ body {
     gap:8px;
     align-items:flex-end;
 }
-.view-position,footer{
+.view-position{
     display: flex;
     padding: 60px;
 }
@@ -215,8 +215,33 @@ body {
     color: #313137;
 }
 footer{
+    display: flex;
+    justify-content: center;
+    /* gap:10px; */
+    padding: 28px 20px 40px 60px;
     background-color: #000F30;
+    color: #d4d4d4;}
+.footer-color{
+    color: #d4d4d4;
+    }
+.footer-para-color{
+    color:rgb(161, 161, 161);
 }
+
 .social{
     display: flex;
+    justify-content:flex-start;
+    gap:8px;
+}
+.social-img{
+    width:20px;
+    height: 20px;
+}
+.footer-content-2{
+    width:15%;
+    
+}
+.footer-content-1{
+    width:25% ;
+    padding:0  12px;
 }
