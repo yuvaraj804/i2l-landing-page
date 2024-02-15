@@ -13,18 +13,18 @@
             <p class="container-topic sub-heading">Ideas2Logic</p>
         </div>
 
-        <div class="container-items">
-            <p class="item">
+        <div  class="container-items">
+            <p id="insurance" onclick="toggleActiveBtn('insurance')" class="item">
                 Insurance
             </p>
-            <p class="item active">
+            <p id="about-us" onclick="toggleActiveBtn('about-us')" class="item active">
                 About Us
             </p>
-            <p class="item">
+            <p id="become-insurance" onclick="toggleActiveBtn('become-insurance')" class="item">
                 Become Insurance Advisor
             </p>
         </div>
-        <div>
+        <div class="btn">
             <button class="login-button">Log In</button>
         </div>
     </div>
@@ -126,14 +126,21 @@
             <h2 class="heading">People Behind go Policy</h2>
             <div class="people-content">
                 <div>
-                    <img class="people-img" src="/assets/image/how/Icon - Gather Customer Inputs.png">
+                    <img class="people-img" src="/assets/image/life-at-i2l/lightroom-1.png">
                 </div>
                 <div>
-                    <img class="people-img" src="/assets/image/how/Icon - Pathway to Succeed.png">
+                    <img class="people-img" src="/assets/image/life-at-i2l/office-2.png">
                 </div>
                 <div>
-                    <img class="people-img" src="/assets/image/how/Icon - Place a Plan.png" value="yuvaraj">
+                    <img class="people-img" src="/assets/image/life-at-i2l/office-3.png" >
                 </div>
+                <div>
+                    <img class="people-img" src="/assets/image/life-at-i2l/office-2.png">
+                </div>
+                <div>
+                    <img class="people-img" src="/assets/image/life-at-i2l/lightroom-1.png">
+                </div>
+                
             </div>
         </section>
     </section>
@@ -142,13 +149,13 @@
         <h2 class="heading life-at-heading">Life at Ideas2Logic</h2>
         <div class="life-at-container">
             <div class="life-at-content-1">
-                <div class="life-at-img "><img width="160" height="160" src="assets/image/life-at-i2l/lightroom-1.png">
-                    <img width="160" height="100" src="assets/image/life-at-i2l/office-3.png">
-                    <img width="80" height="70" src="assets/image/life-at-i2l/office-5.png">
+                <div class="life-at-img "><img width="180" height="180" src="assets/image/life-at-i2l/lightroom-1.png">
+                    <img width="180" height="120" src="assets/image/life-at-i2l/office-3.png">
+                    <img width="100" height="90" src="assets/image/life-at-i2l/office-5.png">
 
                 </div>
-                <div class="life-at-img"><img width="160" height="240" src="assets/image/life-at-i2l/office-2.png">
-                    <img width="160" height="80" src="assets/image/life-at-i2l/office-4.png">
+                <div class="life-at-img"><img width="180" height="260" src="assets/image/life-at-i2l/office-2.png">
+                    <img width="180" height="100" src="assets/image/life-at-i2l/office-4.png">
                 </div>
             </div>
             <div class="life-at-content-2">
@@ -171,14 +178,14 @@
     <section>
         <div class="view-position content about-us ">
             <div>
-                <h5 class="view-position-content">We are always on the look out for more experts to join our dynamic
+                <p class="view-position-content paragraph">We are always on the look out for more experts to join our dynamic
                     teams. Willing to be a part of the insurance world? Let us know your qualifications and we shall
                     reach out to you.
-                </h5>
+                </p>
                 <button class="login-button">View Positions</button>
             </div>
             <div>
-                <img width="200" height="90" src="assets/image/Group.png">
+                <img width="260" height="120" src="assets/image/Group.png">
             </div>
         </div>
     </section>
@@ -188,7 +195,7 @@
                 <h2 class="footer-color">Ideas2Logic</h2    >
             </div>
             <div>
-                <p class="paragraph footer-para-color">FA Premium Insurance Broking Pvt. Ltd.
+                <p class="footer-para footer-para-color">FA Premium Insurance Broking Pvt. Ltd.
                     IRDA License No. 629 / IRDA/DB690/17 I ISO/IEC 27001:2013 I Certificate Number : 26463</p>
                 </div>
                 <div class="social">
@@ -219,7 +226,7 @@
         <div class="footer-content footer-content-1">
             <h4>CONTACT US</h4>
             <h5><bold>Registered & Corporate Office</bold></h5>
-            <p class="paragraph footer-para-color" >Registered & Corporate Office
+            <p class="footer-para footer-para-color" >Registered & Corporate Office
             +91 444 851 4791
             support@gopolicy.com
             SERVICE PROVIDED CONTACT US
@@ -229,6 +236,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
