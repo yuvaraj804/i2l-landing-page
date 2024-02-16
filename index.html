@@ -9,11 +9,14 @@
 
 <body>
     <div class="container">
+        <div class="menu" onclick="menu()" >
+            <img class="menu-img" width="28" height="28" src="assets/image/menuBotton.svg">
+        </div>
         <div>
             <p class="container-topic sub-heading">Ideas2Logic</p>
         </div>
 
-        <div  class="container-items">
+        <div  class="container-items ">
             <p id="insurance" onclick="toggleActiveBtn('insurance')" class="item">
                 Insurance
             </p>
@@ -123,21 +126,36 @@
             </div>
         </section>
         <section>
-            <h2 class="heading">People Behind go Policy</h2>
+            <h2 class="heading">People Behind Ideas2Logic</h2>
             <div class="people-content">
-                <div>
-                    <img class="people-img" src="/assets/image/life-at-i2l/lightroom-1.png">
+                <div class="people">
+                    <div class="peopleOverlay">
+                        <h5 class="overlay-text">Yuvaraj</h5>
+                    </div>
+                    <img class="people-img" src="assets/image/life-at-i2l/lightroom-1.png">
                 </div>
-                <div>
-                    <img class="people-img" src="/assets/image/life-at-i2l/office-2.png">
+                <div class="people">
+                    <div class="peopleOverlay">
+                        <h5 class="overlay-text">Yuvaraj</h5>
+                    </div>
+                    <img class="people-img" src="assets/image/life-at-i2l/office-2.png">
                 </div>
-                <div>
-                    <img class="people-img" src="/assets/image/life-at-i2l/office-3.png" >
+                <div class="people">
+                    <div class="peopleOverlay">
+                        <h5 class="overlay-text">Yuvaraj</h5>
+                    </div>
+                    <img class="people-img" src="assets/image/life-at-i2l/office-3.png" >
                 </div>
-                <div>
-                    <img class="people-img" src="/assets/image/life-at-i2l/office-2.png">
+                <div class="people">
+                    <div class="peopleOverlay">
+                        <h5 class="overlay-text">Yuvaraj</h5>
+                    </div>
+                    <img class="people-img" src="assets/image/life-at-i2l/office-2.png">
                 </div>
-                <div>
+                <div class="people">
+                    <div class="peopleOverlay">
+                        <h5 class="overlay-text">Yuvaraj</h5>
+                    </div>
                     <img class="people-img" src="/assets/image/life-at-i2l/lightroom-1.png">
                 </div>
                 
@@ -149,13 +167,13 @@
         <h2 class="heading life-at-heading">Life at Ideas2Logic</h2>
         <div class="life-at-container">
             <div class="life-at-content-1">
-                <div class="life-at-img "><img width="180" height="180" src="assets/image/life-at-i2l/lightroom-1.png">
-                    <img width="180" height="120" src="assets/image/life-at-i2l/office-3.png">
-                    <img width="100" height="90" src="assets/image/life-at-i2l/office-5.png">
+                <div class="life-at-content "><img class="life-at-img"  height="180" src="assets/image/life-at-i2l/lightroom-1.png">
+                    <img class="life-at-img" height="120" src="assets/image/life-at-i2l/office-3.png">
+                    <img width='90' height="90" src="assets/image/life-at-i2l/office-5.png">
 
                 </div>
-                <div class="life-at-img"><img width="180" height="260" src="assets/image/life-at-i2l/office-2.png">
-                    <img width="180" height="100" src="assets/image/life-at-i2l/office-4.png">
+                <div class="life-at-content"><img class="life-at-img" height="260" src="assets/image/life-at-i2l/office-2.png">
+                    <img class="life-at-img" height="100" src="assets/image/life-at-i2l/office-4.png">
                 </div>
             </div>
             <div class="life-at-content-2">
@@ -189,14 +207,16 @@
             </div>
         </div>
     </section>
+    <div  onclick="topScroll()" id="arrow" class="arrow-icon"><img   src="assets/image/arrowTopIcon.svg" ></div>
+    
     <footer class="footer-color">
         <div class="footer-content footer-content-1">
             <div>
                 <h2 class="footer-color">Ideas2Logic</h2    >
             </div>
             <div>
-                <p class="footer-para footer-para-color">FA Premium Insurance Broking Pvt. Ltd.
-                    IRDA License No. 629 / IRDA/DB690/17 I ISO/IEC 27001:2013 I Certificate Number : 26463</p>
+                <p class="footer-para footer-para-color">Ideas2logic Pvt. Ltd.
+                    IRDA <br>License No. 629 / IRDA/DB790/17  <br>ISO/IEC 27001:2013 I <br>Certificate Number : 26463</p>
                 </div>
                 <div class="social">
                     <img class="social-img"  src="assets/image/social-media-img/facebook-circle.png">
@@ -225,7 +245,7 @@
         </div>
         <div class="footer-content footer-content-1">
             <h4>CONTACT US</h4>
-            <h5><bold>Registered & Corporate Office</bold></h5>
+            <h5 class="register-office">Registered & Corporate Office</h5>
             <p class="footer-para footer-para-color" >Registered & Corporate Office
             +91 444 851 4791
             support@gopolicy.com
@@ -236,6 +256,8 @@
             </div>
         </div>
     </footer>
+    <div >
+    </div>
     <script src="js/index.js"></script>
 </body>
 

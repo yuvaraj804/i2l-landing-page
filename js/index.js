@@ -31,3 +31,31 @@ function toggleActiveBtn(item) {
       break;
   }
 }
+let mybutton = document.getElementById('arrow');
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  console.log(window.scrollY);
+  if (window.scrollY > 200  ) {
+    mybutton.style.display = "flex";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topScroll() {
+  window.scrollTo({
+    top:0,
+    behavior: 'smooth'
+  })
+ 
+}
+function menu() {
+  let x = document.getElementsByClassName("container");
+  if (x.className === "container-items") {
+    x.className += " responsive";
+  } else {
+    x.className = "container-items";
+  }
+}
+
