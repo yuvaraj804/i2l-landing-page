@@ -9,14 +9,15 @@
 
 <body>
     <div class="container">
-        <div class="menu" onclick="menu()" >
-            <img class="menu-img" width="28" height="28" src="assets/image/menuBotton.svg">
-        </div>
-        <div>
+        
+        <div class="header-heading">
+            <div class="menu" id="menu" onclick="menu()" >
+                <img class="menu-img" width="28" height="28" src="assets/image/menuBotton.svg">
+            </div>
             <p class="container-topic sub-heading">Ideas2Logic</p>
         </div>
 
-        <div  class="container-items ">
+        <div  class="container-items  ">
             <p id="insurance" onclick="toggleActiveBtn('insurance')" class="item">
                 Insurance
             </p>
@@ -31,7 +32,23 @@
             <button class="login-button">Log In</button>
         </div>
     </div>
+    
+    <div class="mobile-header">
+        
 
+        <div id="container2" class="container-items-2  " >
+            <p id="insurance" onclick="toggleActiveBtn('insurance')" class="item">
+                Insurance
+            </p>
+            <p id="about-us" onclick="toggleActiveBtn('about-us')" class="item active">
+                About Us
+            </p>
+            <p id="become-insurance" onclick="toggleActiveBtn('become-insurance')" class="item">
+                Become Insurance Advisor
+            </p>
+        </div>
+        
+    </div>
 
     <section class="all-content">
         <section class="about-us-container">

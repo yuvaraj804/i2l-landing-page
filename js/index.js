@@ -50,12 +50,31 @@ function topScroll() {
   })
  
 }
-function menu() {
-  let x = document.getElementsByClassName("container");
-  if (x.className === "container-items") {
-    x.className += " responsive";
-  } else {
-    x.className = "container-items";
-  }
-}
+// dropdownBtn.addEventListener("click", function (e) {
+//   e.stopPropagation();
+//   toggleDropdown();
+// });
 
+// // Close dropdown when dom element is clicked
+// document.documentElement.addEventListener("click", function () {
+//   if (dropdownMenu.classList.contains("show")) {
+//     toggleDropdown();
+//   }
+// });
+const menuButton= document.getElementById("container2");
+const menuBtn= document.getElementById("menu");
+
+function menu(){
+  // const y=document.getElementById("menu")
+   menuButton.classList.add("show");
+    
+}
+function closeMenu(){
+menuButton.classList.remove("show");   
+}
+document.documentElement.addEventListener("click", function (event) {
+  
+    if (!menuButton.contains(event.target) && !menuBtn.contains(event.target)) {
+      closeMenu();
+    }
+  });

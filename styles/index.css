@@ -82,7 +82,9 @@ body {
   box-shadow: 0.3px 0px 0.5px 1px rgb(196, 196, 196);
   background-color: rgb(252, 252, 252);
 }
-
+.mobile-header{
+  display: none;
+}
 .container-topic {
   padding: 0 12px;
 }
@@ -326,15 +328,36 @@ footer {
   }
   .menu{
     display: block;
-    padding: auto 10px;
+    padding: 2px 5px;
   }
  .login-button{
   height: auto;
   font-size: 12px;
   padding: 6px 28px;
  }
- .container-items{
-display: flex;
-flex-direction: column;
+ .mobile-header{
+  display: block;
+ }
+ .container-items-2{
+  display: flex;
+  flex-direction: column;
+  /* border:2px solid #000000 ; */
+  position: absolute;
+  right: 0;
+  left: 0;
+  visibility: hidden;
+ }
+ .show {
+  visibility: visible;
+  opacity: 1;}
+
+ .item{
+  border:  2px solid #000000 ;
+  background-color: #c3c2c2;
+  margin: 0;
+  padding: 6px;
+ }
+ .header-heading{
+  display: flex;  
  }
 }
