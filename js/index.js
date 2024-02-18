@@ -50,22 +50,11 @@ function topScroll() {
   })
  
 }
-// dropdownBtn.addEventListener("click", function (e) {
-//   e.stopPropagation();
-//   toggleDropdown();
-// });
 
-// // Close dropdown when dom element is clicked
-// document.documentElement.addEventListener("click", function () {
-//   if (dropdownMenu.classList.contains("show")) {
-//     toggleDropdown();
-//   }
-// });
 const menuButton= document.getElementById("container2");
 const menuBtn= document.getElementById("menu");
 
 function menu(){
-  // const y=document.getElementById("menu")
    menuButton.classList.add("show");
     
 }

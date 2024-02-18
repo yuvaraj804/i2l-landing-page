@@ -21,7 +21,7 @@ body {
   font-size: 36px;
   font-weight: 600;
   margin: 0px;
-  padding: 30px 0 0 0;
+  padding: 40px 0 0 0;
   text-align: center;
   justify-items: center;
   color: #000f30;
@@ -96,6 +96,7 @@ body {
   font-weight: 800;
   gap: 18px;
   align-items: center;
+  cursor: pointer;
 }
 .menu{
   display: none;
@@ -125,9 +126,7 @@ body {
   border: none;
   color: white;
 }
-.btn {
-  padding-right: 50px;
-}
+
 .content {
   padding: 0 30px;
 }
@@ -158,6 +157,7 @@ body {
 .our-values-img {
   width: 105px;
   height: 147px;
+  padding: 12px;
 }
 
 .how-we {
@@ -186,6 +186,7 @@ body {
 }
 .people {
   position: relative;
+  cursor: pointer;
   overflow: hidden;
   border-radius: 15px;
 }
@@ -220,6 +221,7 @@ body {
   gap: 20px;
 }
 
+
 .life-at {
   background-color: rgb(241, 241, 241);
   padding: 22px 32px;
@@ -230,18 +232,21 @@ body {
 
 .life-at-container {
   display: flex;
+  justify-content: center;
+  
 }
 
 .life-at-content-1 {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+
+  /* flex-wrap: wrap; */
   gap: 8px;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
-.life-at-content-2 {
+.life-at-content-2 ,.life-at-content-1{
   width: 50%;
   padding: 20px;
 }
@@ -261,18 +266,17 @@ body {
   padding: 60px;
 }
 .view-position-content {
-  color: #313137;
+  padding: 16px;
 }
-footer {
+.footer {
   display: flex;
   justify-content: center;
   /* gap:10px; */
   padding: 28px 20px 40px 60px;
+  width: auto;
   background-color: #000F30;
     color: #d4d4d4;}
-.footer-color{
-  color: #d4d4d4;
-}
+
 .footer-para-color {
   color: rgb(161, 161, 161);
   font-size: 14px;
@@ -294,6 +298,7 @@ footer {
 .social-img {
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 
 .footer-content-2 {
@@ -312,6 +317,7 @@ footer {
   bottom: 30px;
   width:60px;
   height: 60px;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -329,11 +335,12 @@ footer {
   .menu{
     display: block;
     padding: 2px 5px;
+    cursor: pointer;
   }
  .login-button{
   height: auto;
   font-size: 12px;
-  padding: 6px 28px;
+  padding: 6px 20px;
  }
  .mobile-header{
   display: block;
@@ -359,5 +366,31 @@ footer {
  }
  .header-heading{
   display: flex;  
+ }
+ .content
+ {
+  display: flex;
+  flex-direction: column;
+ }
+ .life-at-content-2 ,.life-at-content-1{
+  width: 100%;
+}
+.life-at-container{
+  justify-content: center;align-items: center;
+   flex-direction: column;
+ }
+ .view-position{
+  flex-direction: column-reverse;
+ }
+ .footer{
+  flex-direction: column;
+ }
+ .footer-content-1, .footer-content-2{
+  width: auto;
+  padding: 12px;
+ }
+ .arrow-icon{
+  width: min-content;
+  height: min-content;
  }
 }
