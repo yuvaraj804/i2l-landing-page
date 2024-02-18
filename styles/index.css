@@ -337,6 +337,10 @@ body {
     padding: 2px 5px;
     cursor: pointer;
   }
+  .big-img {
+    width: 360px;
+    height: 320px;
+  }
  .login-button{
   height: auto;
   font-size: 12px;
@@ -364,6 +368,7 @@ body {
   margin: 0;
   padding: 6px;
  }
+
  .header-heading{
   display: flex;  
  }
@@ -392,5 +397,13 @@ body {
  .arrow-icon{
   width: min-content;
   height: min-content;
+}
+.arrow-icon img{
+  width: 40px;
+  height: 40px;
+padding: 10px;
+box-sizing: border-box;}
+ .sub-heading-2{
+  margin: 24px 0;
  }
 }
